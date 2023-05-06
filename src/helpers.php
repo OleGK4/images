@@ -2,8 +2,8 @@
 
 use ChangeImage\ChangeImage;
 
-if (!function_exists('changeImage')) {
-    function changeImage(): ChangeImage
+if (!function_exists('changingImage')) {
+    function changingImage(): ChangeImage
     {
         return new ChangeImage();
     }
