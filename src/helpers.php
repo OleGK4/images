@@ -1,6 +1,7 @@
 <?php
 
-use ChangeImage\ChangeImage;
+
+namespace ChangeImage;
 
 if (!function_exists('changingImage')) {
     function changingImage(): ChangeImage
