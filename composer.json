@@ -1,0 +1,24 @@
+{
+  "name": "gr411_kaoev/images",
+  "description": "Module for working with images",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "olegk4",
+      "email": "oleg.krut.64@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4 | ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Collect\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
